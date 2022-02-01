@@ -4,7 +4,7 @@ Make filesystems.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-filesystem/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-filesystem)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/filesystem)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|
+|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-filesystem/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-filesystem)|[![Ansible Quality Score](https://img.shields.io/ansible/quality/57825)](https://galaxy.ansible.com/buluma/filesystem)|[![Ansible Role](https://img.shields.io/ansible/role/d/57825)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -91,6 +91,7 @@ The following roles are used to prepare a system. You can prepare your system in
 This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.co.ke/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-filesystem/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
