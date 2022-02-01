@@ -1,0 +1,14 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: filesystem check on disk1
+      ansible.builtin.command:
+        cmd: fsck.ext4 -y disk_1
+
+    - name: filesystem check on disk2
+      ansible.builtin.command:
+        cmd: fsck.ext3 -y disk_2
