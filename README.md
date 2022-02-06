@@ -4,7 +4,7 @@ Make filesystems.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-filesystem/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-filesystem)|[![Ansible Quality Score](https://img.shields.io/ansible/quality/57825)](https://galaxy.ansible.com/buluma/filesystem)|[![Ansible Role](https://img.shields.io/ansible/role/d/57825)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|
+|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-filesystem/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-filesystem)|[![quality](https://img.shields.io/ansible/quality/57857)](https://galaxy.ansible.com/buluma/filesystem)|[![downloads](https://img.shields.io/ansible/role/d/57857)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -25,7 +25,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
           fstype: ext3
           opts: -cc
         - dev: disk_3
-          state: absent```
+          state: absent
+```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
 ```yaml
@@ -124,4 +125,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)
