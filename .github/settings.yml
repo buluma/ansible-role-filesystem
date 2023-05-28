@@ -5,4 +5,4 @@
 repository:
   description: Make filesystems.
   homepage: https://buluma.github.io/
-  topics: filesystem, ansible, molecule, tox, playbook, hacktoberfest
+  topics: filesystem, ansible, molecule, tox, playbook
