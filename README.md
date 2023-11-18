@@ -1,10 +1,10 @@
-# [filesystem](#filesystem)
+# [Ansible role filesystem](#filesystem)
 
 Make filesystems.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-filesystem/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-filesystem)|[![quality](https://img.shields.io/ansible/quality/57857)](https://galaxy.ansible.com/buluma/filesystem)|[![downloads](https://img.shields.io/ansible/role/d/57857)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-filesystem/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-filesystem)|[![downloads](https://img.shields.io/ansible/role/d/4708)](https://galaxy.ansible.com/buluma/filesystem)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -113,7 +113,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
