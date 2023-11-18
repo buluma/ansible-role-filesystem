@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-filesystem/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-filesystem/compare/1.0.7...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#12](https://github.com/buluma/ansible-role-filesystem/issues/12)
+- Update action [\#11](https://github.com/buluma/ansible-role-filesystem/issues/11)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-filesystem/tree/1.0.7) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-filesystem/compare/1.0.6...1.0.7)
