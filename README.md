@@ -1,10 +1,10 @@
-# [Ansible role filesystem](#filesystem)
+# Ansible role [filesystem](https://galaxy.ansible.com/ui/standalone/roles/buluma/filesystem/documentation)
 
 Make filesystems.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-filesystem/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-filesystem/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-filesystem/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-filesystem.svg)](https://github.com/buluma/ansible-role-filesystem/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/filesystem)](https://galaxy.ansible.com/ui/standalone/roles/buluma/filesystem/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -127,13 +127,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-filesystem/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-filesystem/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
