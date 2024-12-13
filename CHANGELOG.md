@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#31](https://github.com/buluma/ansible-role-filesystem/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.10.0 to 24.12.0 [\#30](https://github.com/buluma/ansible-role-filesystem/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#29](https://github.com/buluma/ansible-role-filesystem/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#28](https://github.com/buluma/ansible-role-filesystem/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -21,11 +22,14 @@
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#23](https://github.com/buluma/ansible-role-filesystem/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-filesystem/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#21](https://github.com/buluma/ansible-role-filesystem/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#20](https://github.com/buluma/ansible-role-filesystem/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.3.0](https://github.com/buluma/ansible-role-filesystem/tree/1.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-filesystem/compare/1.2.0...1.3.0)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#20](https://github.com/buluma/ansible-role-filesystem/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-filesystem/tree/1.2.0) (2024-01-10)
 
