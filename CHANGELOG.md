@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-filesystem/compare/24.3.31...HEAD)
 
+**Closed issues:**
+
+- Update action [\#14](https://github.com/buluma/ansible-role-filesystem/issues/14)
+- rebuild action [\#13](https://github.com/buluma/ansible-role-filesystem/issues/13)
+
 **Merged pull requests:**
 
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#33](https://github.com/buluma/ansible-role-filesystem/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -32,7 +37,6 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#20](https://github.com/buluma/ansible-role-filesystem/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#17](https://github.com/buluma/ansible-role-filesystem/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-filesystem/tree/1.2.0) (2024-01-10)
 
@@ -40,6 +44,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#17](https://github.com/buluma/ansible-role-filesystem/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#16](https://github.com/buluma/ansible-role-filesystem/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-filesystem/tree/1.1.0) (2024-01-02)
