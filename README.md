@@ -43,7 +43,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
   tasks:
     - name: Make disk image
-      command: truncate -s 16M "{{ item }}"
+      ansible.builtin.command: truncate -s 16M "{{ item }}"
       args:
         creates: "{{ item }}"
       loop:
