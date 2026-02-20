@@ -5,30 +5,30 @@ galaxy_info:
   description: Make filesystems.
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: '2.12'
+  min_ansible_version: "2.12"
   platforms:
     - name: Alpine
       versions:
         - all
-  - name: Amazon
-    versions:
-    - all
-  - name: Debian
-    versions:
-    - all
-  - name: EL
-    versions:
-    - all
-  - name: Fedora
-    versions:
-    - all
-  - name: opensuse
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
+    - name: Amazon
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: opensuse
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
   galaxy_tags:
     - filesystem
-  - system
+    - system
 dependencies: []

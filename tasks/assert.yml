@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Warn if filesytem_default_filesystem is set incorrectly
   block:
     - name: assert | Test filesytem_default_filesystem
