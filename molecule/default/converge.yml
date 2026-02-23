@@ -1,16 +1,16 @@
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.filesystem
-        filesystem_list:
-          - dev: disk_1
-            fstype: ext4
-          - dev: disk_2
-            fstype: ext3
-            opts: -cc
-          - dev: disk_3
-            state: absent
+  roles:
+  - role: buluma.filesystem
+    filesystem_list:
+    - dev: disk_1
+      fstype: ext4
+    - dev: disk_2
+      fstype: ext3
+      opts: -cc
+    - dev: disk_3
+      state: absent
