@@ -12,44 +12,44 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-- name: Converge
-  hosts: all
-  become: true
-  gather_facts: true
+  - name: Converge
+    hosts: all
+    become: true
+    gather_facts: true
 
-  roles:
-    - role: buluma.filesystem
-      filesystem_list:
-        - dev: disk_1
-          fstype: ext4
-        - dev: disk_2
-          fstype: ext3
-          opts: -cc
-        - dev: disk_3
-          state: absent
+    roles:
+      - role: buluma.filesystem
+        filesystem_list:
+          - dev: disk_1
+            fstype: ext4
+          - dev: disk_2
+            fstype: ext3
+            opts: -cc
+          - dev: disk_3
+            state: absent
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-filesystem/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-- name: Prepare
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Prepare
+    hosts: all
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
 
-  tasks:
-    - name: Make disk image
-      ansible.builtin.command: truncate -s 16M "{{ item }}"
-      args:
-        creates: "{{ item }}"
-      loop:
-        - disk_1
-        - disk_2
-        - disk_3
+    tasks:
+      - name: Make disk image
+        ansible.builtin.command: truncate -s 16M "{{ item }}"
+        args:
+          creates: "{{ item }}"
+        loop:
+          - disk_1
+          - disk_2
+          - disk_3
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
